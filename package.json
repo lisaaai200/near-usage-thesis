@@ -1,0 +1,14 @@
+{
+  "name": "near-usage-thesis",
+  "version": "0.1.0",
+  "description": "Evidence-first, re-runnable NEAR investment thesis: does onchain usage lead NEAR's price? Built at NEAR HACKATHON (Investment Thesis track).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "build": "node scripts/build.mjs",
+    "rebuild": "node scripts/fetch.mjs && node scripts/build.mjs",
+    "test": "node --test test/"
+  },
+  "engines": { "node": ">=18" }
+}

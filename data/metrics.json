@@ -1,0 +1,233 @@
+{
+  "source": "https://api.nearblocks.io/v1/charts",
+  "fetchedAt": "2026-11-01T02:09:15.514Z",
+  "firstPriceDay": "2020-10-14",
+  "lastDay": "2026-10-31",
+  "days": 2209,
+  "latest": {
+    "date": "2026-10-31",
+    "price": 4.287445,
+    "txns": 502649,
+    "active": 46019,
+    "newAcc": 17100,
+    "activeContracts": 48418,
+    "feeNear": 710.7537062252873,
+    "feeUsd": 3044.08594808,
+    "volUsd": 122317405.82903379,
+    "supply": 1310472976.2021549
+  },
+  "yoy30dAvg": {
+    "active": -0.735130378393887,
+    "txns": -0.8424899513324084,
+    "newAcc": -0.9620420938285016,
+    "feeUsd": -0.2763005655623739,
+    "price": 0.9639089404519261
+  },
+  "leadLagTests": [
+    {
+      "metric": "active",
+      "label": "Daily active accounts",
+      "horizonDays": 7,
+      "sameWindow": {
+        "r": 0.19363287618675354,
+        "n": 315
+      },
+      "usageLeadsPrice": {
+        "r": -0.07632630337334222,
+        "n": 314
+      },
+      "priceLeadsUsage": {
+        "r": -0.06732851112865365,
+        "n": 314
+      }
+    },
+    {
+      "metric": "active",
+      "label": "Daily active accounts",
+      "horizonDays": 30,
+      "sameWindow": {
+        "r": 0.19070795236107063,
+        "n": 73
+      },
+      "usageLeadsPrice": {
+        "r": 0.10424844515553991,
+        "n": 72
+      },
+      "priceLeadsUsage": {
+        "r": 0.10696789605893851,
+        "n": 72
+      }
+    },
+    {
+      "metric": "active",
+      "label": "Daily active accounts",
+      "horizonDays": 90,
+      "sameWindow": {
+        "r": 0.4213365291780559,
+        "n": 24
+      },
+      "usageLeadsPrice": {
+        "r": -0.25762759568236554,
+        "n": 23
+      },
+      "priceLeadsUsage": {
+        "r": -0.3760292536398692,
+        "n": 23
+      }
+    },
+    {
+      "metric": "txns",
+      "label": "Daily transactions",
+      "horizonDays": 7,
+      "sameWindow": {
+        "r": 0.11135872441591015,
+        "n": 315
+      },
+      "usageLeadsPrice": {
+        "r": 0.05336207090063559,
+        "n": 314
+      },
+      "priceLeadsUsage": {
+        "r": 0.02459426455291085,
+        "n": 314
+      }
+    },
+    {
+      "metric": "txns",
+      "label": "Daily transactions",
+      "horizonDays": 30,
+      "sameWindow": {
+        "r": 0.270204473025156,
+        "n": 73
+      },
+      "usageLeadsPrice": {
+        "r": -0.16292798677864248,
+        "n": 72
+      },
+      "priceLeadsUsage": {
+        "r": 0.007652011047537144,
+        "n": 72
+      }
+    },
+    {
+      "metric": "txns",
+      "label": "Daily transactions",
+      "horizonDays": 90,
+      "sameWindow": {
+        "r": 0.3711116830102145,
+        "n": 24
+      },
+      "usageLeadsPrice": {
+        "r": -0.12728287644618688,
+        "n": 23
+      },
+      "priceLeadsUsage": {
+        "r": 0.2499324246081713,
+        "n": 23
+      }
+    },
+    {
+      "metric": "newAcc",
+      "label": "New accounts",
+      "horizonDays": 7,
+      "sameWindow": {
+        "r": 0.15134109407715177,
+        "n": 315
+      },
+      "usageLeadsPrice": {
+        "r": -0.021209331588502765,
+        "n": 314
+      },
+      "priceLeadsUsage": {
+        "r": -0.08695285062593837,
+        "n": 314
+      }
+    },
+    {
+      "metric": "newAcc",
+      "label": "New accounts",
+      "horizonDays": 30,
+      "sameWindow": {
+        "r": 0.18071693481863954,
+        "n": 73
+      },
+      "usageLeadsPrice": {
+        "r": -0.01856777316660311,
+        "n": 72
+      },
+      "priceLeadsUsage": {
+        "r": 0.12819709067246413,
+        "n": 72
+      }
+    },
+    {
+      "metric": "newAcc",
+      "label": "New accounts",
+      "horizonDays": 90,
+      "sameWindow": {
+        "r": 0.2547617965601817,
+        "n": 24
+      },
+      "usageLeadsPrice": {
+        "r": -0.15691874524848926,
+        "n": 23
+      },
+      "priceLeadsUsage": {
+        "r": -0.2748596308700063,
+        "n": 23
+      }
+    },
+    {
+      "metric": "feeNear",
+      "label": "Fees burned/paid (NEAR)",
+      "horizonDays": 7,
+      "sameWindow": {
+        "r": 0.1463880275692818,
+        "n": 315
+      },
+      "usageLeadsPrice": {
+        "r": 0.02787645640418591,
+        "n": 314
+      },
+      "priceLeadsUsage": {
+        "r": 0.06068399447123702,
+        "n": 314
+      }
+    },
+    {
+      "metric": "feeNear",
+      "label": "Fees burned/paid (NEAR)",
+      "horizonDays": 30,
+      "sameWindow": {
+        "r": 0.16819983707116162,
+        "n": 73
+      },
+      "usageLeadsPrice": {
+        "r": -0.25408591456511287,
+        "n": 72
+      },
+      "priceLeadsUsage": {
+        "r": 0.03758458243127756,
+        "n": 72
+      }
+    },
+    {
+      "metric": "feeNear",
+      "label": "Fees burned/paid (NEAR)",
+      "horizonDays": 90,
+      "sameWindow": {
+        "r": 0.5516709850393076,
+        "n": 24
+      },
+      "usageLeadsPrice": {
+        "r": -0.13769481823420512,
+        "n": 23
+      },
+      "priceLeadsUsage": {
+        "r": 0.09285802732649236,
+        "n": 23
+      }
+    }
+  ],
+  "note": "Pearson r on non-overlapping log changes. |r| < 0.2 is treated as no usable signal. Correlation is not causation."
+}
